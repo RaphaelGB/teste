@@ -1,0 +1,76 @@
+/* configs básicas */
+**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+/* Numeração da pergunta*/
+#indice{
+    color: #930009;
+    font-family: 'Volkhov', serif;
+    font-size: 76px;
+}
+
+/* Título Pergunta */
+#title-Pergunta{
+    font-size: 78px;
+    font-family: 'Volkhov',serif;
+}
+
+/* Options */
+.Options{
+    font-weight: 400;
+    font-family: 'Volkhov', serif;
+    border-radius: 50px;
+    width: 25%;
+    height: 60px;
+    font-size: 2rem;
+    background: #930009 ;
+    color: #FFFFFF;
+}
+
+#Certo, #Errado{
+    width: 5%;
+}
+
+
+/* IMG MAMACO */
+#logo_Mamaco{
+    width: 20%;
+}
+
+/* Button "Voltar" */
+#Button_Return{
+    display: inline;
+    width: 10%;
+    height: 60px;
+    background: #a33434 ;
+    
+    
+}
+
+#Link_Return{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Link das respostas certas*/
+#ResCerta{
+    color: white;
+    text-decoration: none;
+}
+
+.Options:hover{
+    background: #ffffff;
+    border: solid 3px #930009;
+}
+.Options:hover>.text-option, .Options:hover>span{
+    color: #930009;
+}

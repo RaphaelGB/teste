@@ -1,0 +1,92 @@
+/* configs básicas */
+**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+/* Título */
+#title{
+    color: #C0000F;
+    margin-top: 6.5%;
+    font-size: 88px;
+    font-family: 'Volkhov', serif;
+}
+
+/*Butões*/
+#line2, #line3{
+    margin-top: 3%;
+}
+
+#Iniciar{
+    width: 17.5%;
+    height: 75px;
+    padding: 5px;    
+    background:#323536;
+}
+
+button#Iniciar>a, button#Ranking>a{
+    font-family: 'Volkhov', serif;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+
+}
+
+#Ranking{
+    width: 17.5%;
+    height: 75px;
+    background: #930009;
+}
+/*Imagens*/
+
+.symbols{
+    position: absolute;
+}
+#Adi{
+    width:5%;
+    top: 6%;
+    left: 83%;
+}
+
+#Div{
+    top: 51%;
+    left: 91%;
+    width:3.7%;
+}
+
+#Igual{
+    top: 80%;
+    left: 20%;
+    width:7.5%;
+}
+
+#Mult{
+    top: 40%;
+    left: 4%;
+    width:5%;
+}
+
+#Rest{
+    top: 78%;
+    left: 73%;
+     width:10%;
+}
+
+#Sub{
+     width:3%;
+    top: 6%;
+    left: 10%;
+}
+
+#MamacoInicial{
+    position: absolute;
+    bottom: 0;
+    left: 36%;
+}

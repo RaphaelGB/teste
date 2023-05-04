@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de perguntas</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="Perguntas.css">
+    <!-- JS -->
+    <script src="Perguntas.js"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Title -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Indice -->
+            <span class="text-center" id="indice"> 15/15</span>
+        </div>
+
+        <!-- Question -->
+        <div class="row">
+            <span class=" text-center " id="title-Pergunta">9²+33</span>
+        </div>
+
+        <!-- Options -->
+        <div class="row" id="OptionA">
+            <center>
+                <a href="#" id="ResCerta" class="ps-3">
+                <button class="m-3 text-start Options" id="RespostaA"> 
+                  <span class="text-opition">   a) 114 </span> </button> </a>
+                <span id="Icon_RespostaA"> </span>
+            </center>
+        </div>
+        <div class="row" id="OptionB">
+            <center>
+                <button class="m-3 text-start Options" id="RespostaB" onclick="RespostaErradaB()"> <span class="ps-3"> b)
+                        115 </span> </button>
+                <span id="Icon_RespostaB"> </span>
+            </center>
+        </div>
+        <div class="row" id="OptionC">
+            <center>
+                <button class="m-3 text-start Options" id="RespostaC" onclick="RespostaErradaC()"> <span class="ps-3">
+                        c) 116 </span> </button>
+                <span id="Icon_RespostaC"> </span>
+            </center>
+        </div>
+
+        <div class="row" id="OptionD">
+            <center>
+                <button class="m-3 text-start Options" id="RespostaD" onclick="RespostaErradaD()"> <span class="ps-3">
+                        d) 117 </span> </button>
+                <span id="Icon_RespostaD"> </span>
+            </center>
+        </div>
+        <!-- Icon -->
+        <img src="../IMG/MamacoNoCipo.png" alt="MacacoBalancando" id="logo_Mamaco" class="position-absolute top-0 end-0">
+    </div>
+    <!-- Button "Voltar" -->
+    <div id="Return">
+        
+    </div>
+</body>
+
+</html>
