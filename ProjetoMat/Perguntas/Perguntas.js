@@ -74,7 +74,7 @@ function RespostaErradaA() {
     document.getElementById("RespostaD").style.border = "4px solid #2828280";
 
     //Colocando o botão de retorno
-    document.getElementById("Return").innerHTML = "<div class='row' id='Row_Return'> <center> <button class='m-3 text-center Options' id='Button_Return'> <a href='/index.html' id='Link_Return'> Voltar </a></button> </center> </div> "
+    document.getElementById("Return").innerHTML = "<div class='row' id='Row_Return'> <center> <button class='m-3 text-center Options' id='Button_Return'> <a href='../index.html' id='Link_Return'> Voltar </a></button> </center> </div> "
 
 }
 function RespostaErradaC() {
@@ -100,7 +100,7 @@ function RespostaErradaC() {
     document.getElementById("RespostaD").style.border = "4px solid #2828280";
 
     //Colocando o botão de retorno
-    document.getElementById("Return").innerHTML = "<div class='row' id='Row_Return'> <center> <button class='m-3 text-center Options' id='Button_Return'> <a href='/index.html' id='Link_Return'> Voltar </a></button> </center> </div> "
+    document.getElementById("Return").innerHTML = "<div class='row' id='Row_Return'> <center> <button class='m-3 text-center Options' id='Button_Return'> <a href='../index.html' id='Link_Return'> Voltar </a></button> </center> </div> "
 
 }
 function RespostaErradaD() {
@@ -127,7 +127,7 @@ function RespostaErradaD() {
 
 
     //Colocando o botão de retorno
-    document.getElementById("Return").innerHTML = "<div class='row' id='Row_Return'> <center> <button class='m-3 text-center Options' id='Button_Return'> <a href='/index.html' id='Link_Return'> Voltar </a></button> </center> </div> "
+    document.getElementById("Return").innerHTML = "<div class='row' id='Row_Return'> <center> <button class='m-3 text-center Options' id='Button_Return'> <a href='../index.html' id='Link_Return'> Voltar </a></button> </center> </div> "
 
 }
 
@@ -153,5 +153,5 @@ function RespostaErradaB() {
     document.getElementById("RespostaD").style.border = "4px solid #2828280";
 
     //Colocando o botão de retorno
-    document.getElementById("Return").innerHTML = "<div class='row' id='Row_Return'> <center> <button class='m-3 text-center Options' id='Button_Return'> <a href='/index.html' id='Link_Return'> Voltar </a></button> </center> </div> "
+    document.getElementById("Return").innerHTML = "<div class='row' id='Row_Return'> <center> <button class='m-3 text-center Options' id='Button_Return'> <a href='../index.html' id='Link_Return'> Voltar </a></button> </center> </div> "
 }
